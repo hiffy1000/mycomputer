@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ * {
+        
+            margin: 0;
+            padding: 0;
+        
+        }
+        body {
+
+        margin: 0;
+        background-color: black;
+        justify-content: center;
+       
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            margin: 10px;
+           
+            
+          }
+          .navbar .logo {
+              font-family: "Pacifico", cursive;
+              font-size: 30px;
+              font-weight: 800;
+              color: white;
+            }
+             .logo-nap {
+              color: blue;
+             }
+              .menu-toggle {
+                display: none;
+                flex-direction: column;
+                cursor: pointer;
+              }
+              .menu-toggle  .bar {
+            background-color: white;
+            width:50px ;
+            height: 4px;
+            height: 10px;
+           } 
+             .nav-link {
+              display: flex;
+              list-style: none;
+              gap: 15px;
+             }
+             .nav-link li {
+              display: inline;
+             }
+             .nav-link li a {
+              text-decoration: none;
+              color:white;
+              font-weight: 600;
+              font-size: 20px;
+             }
+               i {
+            
+              color: blue;
+            margin-right: 5px;
+            font-size: 16px;
+             }
+        .cover {
+            display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+        height: 150px;
+        width: 150px;
+        object-fit: contain;
+        margin: 20px;
+        row-gap: 20px;
+        column-gap: 20px;
+       
+        cursor: pointer; 
+      transition: color 1s;
+      box-shadow: 1px, 1px, 0, 1px rgba(0, 0, 0, 0.17);
+    }
+         img {
+           height: 200px; 
+           width: 200px;
+          max-width: 250px;
+          
+          display: flex;
+          border-radius: 15px; 
+         
+        } 
+         .cover img:hover {
+            transform: scale(1.1);
+         }
