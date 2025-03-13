@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    box-sizing: border-box;
+  
   }
    
 
@@ -17,9 +17,7 @@
     align-items: center;
     text-align: center;
     margin: 10px;
-   
-    
-  }
+    }
   .navbar .logo {
       font-family: "Pacifico", cursive; 
       font-size: 20px;
@@ -45,12 +43,11 @@
       font-size: 20px;
      }
        i {
-    
-      color: blue;
+     color: blue;
     margin-right: 5px;
     font-size: 16px;
      }
-       .container{
+       .container {
         display: block;
         text-align: center;
         justify-content: center;
@@ -65,7 +62,18 @@
        border-radius: 25px;
        height: 100px;
       }
-  .container-box {
+  .container-box button {
+          width: 20px;
+          max-width: 20px;
+          width: 50px;
+          padding: 10px;
+          margin-top: 5px;
+        font-size: 17px;
+          font-weight: 400;
+          color: white;
+          border: none;
+     }
+      .container-box {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -85,27 +93,11 @@
         max-width: 150px;
         text-align: center;
         
-        }
-       
-
-
-
-
-
-
-
+        } 
         .container button {
-          width: 400px;
-          padding: 10px;
-          margin-top: 5px;
-          font-size: 18px;
-          font-weight: 400px;
-          color: white;
           border: none;
-        
-         
-        }
-         .socio-media {
+         }
+          .socio-media {
           font-size: 18px;
           font-family: 'Courier New', Courier, monospace;
           color: white;
