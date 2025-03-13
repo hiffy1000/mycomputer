@@ -76,7 +76,8 @@ body {
     .container-grid .box {
       background-color:rgb(23,78,79);
       color: white;
-      padding: 20px;
+      padding: 10px;
+      
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
